@@ -1,0 +1,23 @@
+.tree-menu {
+    font-family: Arial, sans-serif;
+  }
+  
+  .tree-node {
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .tree-node:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .has-children::before {
+    content: '▶';
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .nested {
+    margin-left: 20px;
+  }
+  
